@@ -23,7 +23,9 @@ public class MemberService {
      * 회원가입
      */
 
-    public Long join(Member member){
+    public Long join(Member member) {
+
+
         //같은 이름이 있는 중복 회원X
         /**
          * Optional로 객체를 감싸서 사용할경우 null을 직접 다루지 않아도 된다.
@@ -51,8 +53,6 @@ public class MemberService {
 
         //리팩토링하여 완성, 단축키 Ctrl+Alt+M
         validateDuplicateMember(member);//중복회원 검증
-
-
         memberRepository.save(member);
         return member.getId();
     }
