@@ -1,4 +1,4 @@
-package hello.servlet.web.v4;
+package hello.servlet.web.frontcontroller.v4;
 
 import java.util.Map;
 
