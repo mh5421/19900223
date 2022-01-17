@@ -27,7 +27,6 @@ for t in range(int(input())):
                     thisfloor.append(1)
                 else:
                     thisfloor.append(tempfloor[i] + thisfloor[i-1])
-                print(thisfloor)
                 
                     
     print(sum(thisfloor))
