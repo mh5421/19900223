@@ -1,0 +1,20 @@
+<script>const log = console.log;</script>
+<script>
+    const a = 10;
+    const add10 = a => a+10;
+    const r = add10(a);
+
+</script>
+
+#일급 함수 
+ - 함수를 값으로 다룰 수 있다.
+ - 조합성과 추상화의 도구
+
+ <script>
+     const add5 = a => a+5;
+    log(add5);
+    log(add5(5));
+
+    const f1 = () => () =>1;
+    log(f1());
+ </script>
