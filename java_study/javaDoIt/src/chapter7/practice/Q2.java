@@ -1,4 +1,4 @@
-package practice;
+package chapter7.practice;
 
 public class Q2 {
     public static void main(String[] args){

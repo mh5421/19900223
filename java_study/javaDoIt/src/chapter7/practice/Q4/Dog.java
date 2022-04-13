@@ -1,4 +1,4 @@
-package practice.Q4;
+package chapter7.practice.Q4;
 
 public class Dog {
     private String name;

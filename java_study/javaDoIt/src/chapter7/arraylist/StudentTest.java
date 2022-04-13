@@ -1,4 +1,4 @@
-package arraylist;
+package chapter7.arraylist;
 
 
 public class StudentTest {

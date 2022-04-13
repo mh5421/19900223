@@ -1,4 +1,4 @@
-package practice.Q4;
+package chapter7.practice.Q4;
 
 public class DogTest {
     public static void main(String[] args){
